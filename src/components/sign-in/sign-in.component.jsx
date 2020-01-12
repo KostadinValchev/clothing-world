@@ -21,6 +21,7 @@ class SignIn extends Component {
 
     this.setState({ email: "", password: "" });
   };
+  
   handleChange = event => {
     const { value, name } = event.target;
     this.setState({ [name]: value });
