@@ -1,6 +1,7 @@
-## Lesson-18
+## Lesson-19
 
-We want to separate all our business logic in our selectors. In this lesson we add a new selector to show our total count of items.
+Now that we have our cart, it's time to create our checkout page. We need a checkout component for the page and our checkout-item component. We're going to connect the page to our cart reducer; we're also going to make a selector to get the total price.
+
 
 # How to fork and clone
 
